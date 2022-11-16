@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     /*background: linear-gradient(to left, #2bf798, #caf5e1);*/
+    width: 100%;
     margin: 0;
 }
 .intro p{
