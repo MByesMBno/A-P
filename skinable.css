@@ -1,9 +1,44 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    /*background: linear-gradient(to left, #2bf798, #caf5e1);*/
-    width: 100%;
     margin: 0;
 }
+@media screen and (max-width: 1200px) {
+
+    .container{
+        width: 1400px;
+    }
+
+    .wrap{
+        width: 1200px;
+        height: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    .nav ul{
+        width: 800px;
+        height: 20px;
+        margin-right: 60px;
+    }
+    .social{
+        width: 100px;
+        margin-right: 50px;
+    }
+   .social a{
+        font-size: 10px;
+   }
+    #intro{
+        width: 1100px;
+        height: 400px;
+    }
+
+    .design a{
+       position: absolute;
+       bottom: 70px;
+       left:2px;
+       right: 10px;
+    }
+}
+
 .intro p{
     margin: 0;
     color: white;
@@ -64,22 +99,26 @@ body{
 .container {
     height: inherit;
     display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    
+  
+    width: 1600px;
 }
 
 .wrap{
     display: flex;
-    flex-flow:row nowrap ;
+    
+    height: 40px;
 }
 .nav{
-    width: 1100px;
+    width: 100%;
     margin: 0;
+    margin-right: 400px;
+    margin-left: 81px;
     list-style-type: none;
    padding-left: 0;
-   margin-bottom:  0 ;
+   margin-bottom:  0;
    font-size: larger;
+   display: block;
+   text-align: center;
 }
 
 .nav ul{
@@ -120,6 +159,9 @@ body{
     color: rgb(0, 238, 255);
 }
 
+.social{
+    width: 220px;
+}
 .social a{ 
     color: rgb(255, 255, 255);
     margin: 7px;
@@ -291,7 +333,7 @@ body{
     width: 24%;
     position: absolute; /*обалденная вещь*/
     left: 1150px;
-    top: 1400px;
+    top: 1700px;
     border-radius: 20px;
     z-index: 1;
 }
@@ -299,7 +341,7 @@ body{
     width: 24%; /*Баг возможный за счет адаптивного расширения, когда вылетает снизу картинка не видимая*/
     position: absolute; /*обалденная вещь*/
     left: 1150px;
-    top: 1130px;
+    top: 2100px;
     border-radius: 20px;
     z-index: 1;
 }
@@ -307,3 +349,25 @@ body{
     opacity: 1;
 }
 
+.product{
+    display: block;
+    margin-bottom: 600px;
+    width: 1000px;
+    height: 100px;
+    
+}
+.product p{
+    padding-left: 40px;
+    font-family: 'Poor story', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+.image3{
+    width: 24%;
+    position: absolute; 
+    left: 1150px;
+    top: 1000px;
+    border-radius: 20px;
+    z-index: 1;
+}
