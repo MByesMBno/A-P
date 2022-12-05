@@ -9,7 +9,7 @@ window.onscroll = () => {
         header.style.marginTop= '${menu.offsetHeight}px';
 
     } 
-    if((Y>=970)&&(Y<=1170)||(Y>=810)&&(Y<=1010)||(Y>=1792)&&(Y<=1992))
+    if((Y>=710)&&(Y<=910)||(Y>=1612)&&(Y<=1812)||(Y>=2314)&&(Y<=2514))
     {
         menu.classList.remove('header_fixed');
         header.style.marginTop= '0px';

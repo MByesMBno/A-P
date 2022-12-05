@@ -2,42 +2,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
-@media screen and (max-width: 1200px) {
 
-    .container{
-        width: 1400px;
-    }
-
-    .wrap{
-        width: 1200px;
-        height: 100px;
-        margin-right: 100px;
-        margin-top: 20px;
-    }
-    .nav ul{
-        width: 800px;
-        height: 20px;
-        margin-right: 60px;
-    }
-    .social{
-        width: 100px;
-        margin-right: 50px;
-    }
-   .social a{
-        font-size: 10px;
-   }
-    #intro{
-        width: 1100px;
-        height: 400px;
-    }
-
-    .design a{
-       position: absolute;
-       bottom: 70px;
-       left:2px;
-       right: 10px;
-    }
-}
 
 .intro p{
     margin: 0;
@@ -370,4 +335,100 @@ body{
     top: 1000px;
     border-radius: 20px;
     z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container{
+        width: 1400px;
+    }
+
+    .wrap{
+        width: 1200px;
+        height: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    .nav ul{
+        width: 800px;
+        height: 20px;
+        margin-right: 60px;
+    }
+    .social{
+        width: 100px;
+        margin-right: 50px;
+    }
+   .social a{
+        font-size: 10px;
+   }
+    #intro{
+        width: 1100px;
+        height: 400px;
+    }
+
+    .design a{
+       position: absolute;
+       bottom: 70px;
+       left:2px;
+       right: 10px;
+    }
+    .about h1{
+        height: 250px;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    }
+    hr{
+        opacity: 0;
+    }
+    .product p{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .image3{
+        width: 31%;
+    }
+    .about p{
+        font-size: 35px;
+    }
+    .image1{
+        width: 32%;
+        top: 1950px;
+    }
+    .image2{
+        width: 32%;
+        top: 2300px;
+    }
+    .comp h1{
+        height: 250px;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    }
+    .select h3{
+        font-size: 35px;
+    }
+    .select select{
+        font-size: 30px;
+    }
+    .select input{
+        font-size: 30px;
+    }
+
+    .hg{
+        height: 250px;
+        display: flex;
+    }
+    .OS label{
+        font-size: 30px;
+    }
+    .row input{
+        font-size: 30px;
+    }
+    .contact p{
+        font-size: 30px;
+    }
+    .contact input{
+        font-size: 30px;
+    }
 }
